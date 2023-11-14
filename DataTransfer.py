@@ -8,7 +8,7 @@ import shutil
 from tqdm import tqdm
 for fl_dapi in tqdm(fls_dapi):
     #
-    fl_targ = fl_dapi.replace(r'mnt/merfish11/20230908_D106Luo/DNA',r'/mnt/merfish8v1/Carlos_Analysis')
+    fl_targ = fl_dapi.replace(r'/mnt/merfish11/20230908_D106Luo/DNA',r'/mnt/merfish8v1/Carlos_Analysis')
     #print(fl_targ)
     if not os.path.exists(fl_targ):
         try:
